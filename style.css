@@ -1,0 +1,48 @@
+body h1:hover{
+
+    color: beige;
+    background-color: rosybrown;
+padding: 2px;
+margin: 2px;
+
+
+
+}
+a:visited{
+
+    color: red;
+}
+
+ .middle-person:focus{ color: rgb(226, 43, 43);
+    
+font-weight: 500PX;
+
+ }
+
+
+
+ li{color: chocolate;}
+
+ li:last-child{ background-color: coral; 
+color: white;}
+li:nth-last-child(2n){ color: rgb(194, 194, 228);
+background-color: rebeccapurple;}
+
+
+h3::before{content: ' Hello ';}
+
+
+h3::after{ content: 'Hi ';
+    
+    background-color: rgb(175, 140, 209);}
+
+
+
+ .special::after{content: ' Sp' ;
+font-size: 10px;
+background-color: red;
+color: white;
+}
+
+
+
